@@ -54,7 +54,7 @@ export const GAS_API_URL =
  */
 export const IPAW_BACKEND_URL =
   ((import.meta.env.VITE_IPAW_BACKEND_URL as string | undefined) ??
-    'https://ipawbackend.netlify.app').trim().replace(/\/$/, '');
+    'https://ipawpkbackend.netlify.app').trim().replace(/\/$/, '');
 
 /** Enable safe request/response diagnostics for GAS-hosted/offline builds. */
 export const API_DEBUG = true;
